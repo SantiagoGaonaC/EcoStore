@@ -58,6 +58,8 @@
 .botoncart{
     opacity: 0;
     transition: .5s;
+    background-color: #006414;
+    border: 0px;
 }
 
 .card:hover .botoncart{
@@ -82,3 +84,4 @@
 }
 
 
+.pointer{cursor:pointer;}

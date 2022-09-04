@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Buena Vida</title>
   <link href="../public/libs/bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../public/css/style.css" rel="stylesheet">
   <script src="../public/libs/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
@@ -62,11 +62,13 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="/eco-store/views/login.html"><i class="fa-solid fa-lock"></i></i> Entrar</a></li>
+              <li><a class="dropdown-item" href="/eco-store/views/login.html"><i class="fa-solid fa-lock"></i></i>
+                  Entrar</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="/eco-store/views/register.html"><i class="fa-solid fa-user-plus"></i> Crear una Cuenta</a></li>
+              <li><a class="dropdown-item" href="/eco-store/views/register.html"><i class="fa-solid fa-user-plus"></i>
+                  Crear una Cuenta</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -136,21 +138,71 @@
                     </div>
                   </div>
                   <div class="modal-footer border-top-0 d-flex justify-content-between">
-                    <button onclick="location.href='/eco-store/views/cart.html'" type="button" class="btn btn-secondary border-0" style="background-color: #5ccb5f;" data-dismiss="modal" >Ir al carrito</button>
-                    <button type="button" class="btn btn-success border-0" style="background-color: #5ccb5f;">Realizar Pedido</button>
+                    <button onclick="location.href='/eco-store/views/cart.html'" type="button"
+                      class="btn btn-secondary border-0" style="background-color: #5ccb5f;" data-dismiss="modal">Ir al
+                      carrito</button>
+                    <button type="button" class="btn btn-success border-0" style="background-color: #5ccb5f;">Realizar
+                      Pedido</button>
                   </div>
                 </div>
               </div>
             </div>
-
           </li>
         </ul>
       </div>
     </div>
   </header>
 
+  <div class="modal fade" id="modalinfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0">
+          <h5 class="modal-title fw-bold" id="exampleModalLabel" style="color: #006414;">Aceite esencial de Clavo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <table class="table table-image">
+            <thead>
+              <tr>
+                <th scope="col" id="columna-img"></th>
+                <th scope="col">Info</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="w-25">
+                  <img src="/eco-store/public/img/src-eco-store/1.jpg" class="img-fluid img-thumbnail border-0"
+                    alt="Sheep">
+                </td>
+                <td>
+                  <p class="card-text text-success m-0">Sale a: 665,83 €/L</p>
+                  <p class="card-text fw-bold" style="color: #5ccb5f;">7,99 €</p>
+                  <span>
+                    <hr>
+                    El aceite esencial de clavo es conocido por sus increíbles propiedades antimicrobianas,
+                    antimicóticas, antisépticas, antivirales, afrodisíacas y estimulantes. Perfecto para utilizar en tus
+                    mezclas de Cosmética Natural, añadiendo unas cuantas gotas en tu crema corporal o aceite vegetal,
+                    conseguirás nutrir y lucir una piel radiante y 100% cuidad
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="d-flex modal-footer justify-content-end border-0">
+
+            <a href="#" class="btn btn-primary text-center align-middle border-0" style="background-color: #efa229;"><i
+                class="fa-solid fa-cart-plus"></i>
+              Añadir a la cesta</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container text-center card-group ms-auto p-sm-2">
-    <div class="card border-0">
+    <div class="card border-0 pointer" data-bs-toggle="modal" data-bs-target="#modalinfo">
       <span class="descuento ">-50% Desc..</span>
       <img class="card-img-top m-auto m-0" src="../public/img/src-eco-store/1.jpg" style="width: 13rem;"
         alt="Card image cap">
