@@ -1,0 +1,62 @@
+.logo{
+    width: 20%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 30px;
+}
+
+.form{
+    position: relative;
+    
+}
+
+.form span{
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #ffffff;
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   padding-left: 10px;
+}
+
+.form-input{
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 30px;
+    border-color: green;
+    color: #006414;
+}
+
+.fav{
+    color: white;
+    text-align: center;
+}
+
+.color-verde{
+    color: #006414;
+}
+
+
+.card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transform: scale(1.05);
+    transition: .5s;
+    
+}
+
+.botoncart{
+    opacity: 0;
+    transition: .5s;
+}
+
+.card:hover .botoncart{
+    opacity: 1;
+    transition: .5s;
+}
