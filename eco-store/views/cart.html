@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../public/libs/bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../public/css/style.css" rel="stylesheet">
+    <script src="../public/libs/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="../public/libs/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/js/fontawesome.js"></script>
+    <script src="../public/js/script.js"></script>
+    <script src="../public/libs/jquery-3.6.1.js"></script>
+</head>
+
+<body class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="page-header">Esta es tu cesta de la compra</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mb-4">
+                <form id="" method="post" action="">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Artículos</th>
+                                    <th class="mob-hide"></th>
+                                    <th class="mob-hide">Precio Unitario</th>
+                                    <th class="table-qty">Cantidad</th>
+                                    <th>Subtotal</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    
+                                    <td class="text-center mob-hide">
+                                        <a href="" class="" title="Aceite esencial de Clavo">
+                                            <img src="../public/img/src-eco-store/1.jpg" style="width: 13rem;"
+                                                alt="Aceite esencial de Clavo" title="Aceite esencial de Clavo">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <h5>Aceite esencial de Clavo</h5>
+                                    </td>
+                                    <td class="mob-hide">
+                                        <span class="">7,99 €</span>
+                                    </td>
+                                    <td>
+                                        <select class="select select-qty form-control" name="" title="Cantidad">
+                                            <option value="1" selected="selected">1</option>
+                                            <option value="2">2</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <span class="order-product-subtotal">7,99 €</span>
+                                    </td>
+                                    <td class="text-right"> <i class="fa-solid fa-trash"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <input type="hidden">
+                </form>
+                <hr class="my-3">
+                <div class="row">
+                    <div class="cart-discount text-center col-md-6 offset-md-3">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <h2 class="card-title">Resumen de tú pedido</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <div id="estimate_shipping">
+                                        <form action="" id="" autocomplete="off" method="post">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr class="">
+                                                        <td colspan="1" class="text-left">SUBTOTAL</td>
+                                                        <td colspan="1" class="text-right">7,99 €</td>
+                                                    </tr>
+                                                    <tr class="">
+                                                        <td colspan="1" class="text-left"><strong>Total</strong></td>
+                                                        <td colspan="1" class="text-right"><strong>7,99 €</strong>
+                                                        </td>
+                                                        <p class="fw-bold fw-light text-black-50 m-0">(Envío no incluido)</p>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="col-12">
+                                                <div class="text-center cart-actions">
+                                                    <a href="" class="btn btn-primary btn-block border-radius border-0" title="">Realizar Pedido</a>
+                                                    <a href="/" class="btn btn-link btn-block" title="">¿Quieres añadir más productos?</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

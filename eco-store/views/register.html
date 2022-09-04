@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../public/libs/bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../public/css/style.css" rel="stylesheet">
+    <script src="../public/libs/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="../public/libs/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/js/fontawesome.js"></script>
+    <script src="../public/js/script.js"></script>
+    <script src="../public/libs/jquery-3.6.1.js"></script>
+</head>
+<body>
+    <div>
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <main class="form-signin text-center shadow-lg p-3 mb-5">
+          <form class="row g-3 needs-validation" novalidate id="formLogin" action="/login" method="POST">
+            <h1 class="h3 mb-3 fw-normal"><strong>Crear nueva cuenta</strong></h1>
+          <div class="position-relative">
+            <input type="email" class="form-control" id="email" name="email" value="" required placeholder="Nombre">
+          </div>
+          <div class="position-relative">
+            <input type="password" class="form-control" id="password" name="password" required placeholder="Apellidos">
+          </div>
+          <h1 class="h4 mb-3 fw-normal"><strong>Información de inicio de sesión</strong></h1>
+          <div class="position-relative">
+            <input type="email" class="form-control" id="email" name="email" value="" required placeholder="Email">
+          </div>
+          <div class="position-relative">
+            <input type="email" class="form-control" id="email" name="email" value="" required placeholder="Contraseña">
+          </div>
+          <div class="position-relative">
+            <input type="email" class="form-control" id="email" name="email" value="" required placeholder="Repetir Contraseña">
+          </div>
+
+
+          <div class="col-12">
+            <button class="w-100 btn btn-lg btn-primary border-radius border-0" type="submit">Accede</button>
+          </div>
+          </form>
+          <br>
+            <a href="/register" type="button" class="w-100 btn btn-lg btn-primary">Accede con Facebook</a>
+            <br>
+        </main>
+      </div>
+    </div>
+</body>
+</html>
